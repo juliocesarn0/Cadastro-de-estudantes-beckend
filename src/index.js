@@ -13,7 +13,7 @@ app.use('/api/livros', rotasLivros)
 
 app.get('/api', (req, res) => {
     res.status(200).json({
-        mensagem: 'API da Livraria 100% funcional!',
+        mensagem: 'API do cadastro de estudantes 100% funcional!',
         versao: '1.0.0'
     })
 })
